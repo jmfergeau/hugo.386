@@ -1,0 +1,17 @@
+[home]
+other = "Home"
+
+[posts]
+other = "Posts"
+
+[postslist]
+other = "Blog posts"
+
+[search]
+other = "Search"
+
+[categories]
+other = "Categories"
+
+[tags]
+other = "Tags"

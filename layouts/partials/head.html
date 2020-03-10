@@ -1,0 +1,12 @@
+<head>
+    <title>{{ .Site.Title }} | {{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{/* Don't ask why it's like this. This original theme is a mess... */}}
+    <link rel="stylesheet" href="{{ "/css/bootstrap.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/bootstrap-responsive.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+    <!-- <noscript><style>body { visibility: visible }</style></noscript> -->
+</head>

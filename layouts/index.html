@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div class="row-fluid navmargin">
+    <div class="span9 bs-docs-sidebar">
+        <div class="page-header">
+            <h1>{{ .Site.Params.mainpagetitle }}</h1>
+        </div>
+        <p class="lead">{{ .Site.Params.mainpagesubtitle }}</p>
+        <p></p>
+        <p>{{ .Site.Params.mainpagedesc }}</p>
+        <p></p>
+        <hr class="soften">
+        <p></p>
+        <h1>{{ i18n "postslist" }}</h1>
+        <ul>
+            {{ range first 10 .Site.RegularPages }}
+            {{ if eq .Type "posts" }}
+            <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
+            {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+
+    <div class="span3 bs-docs-sidebar">
+        <h1>Categories</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            {{ partial "categories.html" .}}
+        </ul>
+        <p></p>
+        <h1>Tags</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            {{ partial "tags.html" .}}
+        </ul>
+    </div>
+</div>
+
+{{ end }}

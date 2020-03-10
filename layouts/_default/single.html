@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}</h1>
+    </div>
+    <p class="lead">{{ .Params.description }}</p>
+    {{ .Content }}
+    <h4><a href="{{ .Site.BaseURL }}">{{ i18n "home" }}</a></h4>
+</div>
+
+{{ end }}

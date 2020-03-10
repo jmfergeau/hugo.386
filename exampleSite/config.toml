@@ -1,0 +1,11 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "HUGO.386"
+DefaultContentLanguage = "en"
+theme = "hugo.386"
+preserveTaxonomyNames = true
+
+[params]
+    mainpagetitle = "HUGO.386"
+    mainpagesubtitle = "Welcome to the early 90s!"
+    mainpagedesc = "This theme is the Hugo port of the BOOTSTRA.386 theme for a cool retro look on your blog."

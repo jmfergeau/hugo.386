@@ -1,0 +1,26 @@
+<!-- Navbar
+================================================== -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li>
+                        <a href="{{ .Site.BaseURL }}">{{ i18n "home" }}</a>
+                    </li>
+                    <li>
+                        <a href="{{.Site.BaseURL}}posts">{{ i18n "posts" }}</a>
+                    </li>
+                    <li>
+                        <a href="{{.Site.BaseURL}}categories">{{ i18n "categories" }}</a>
+                    </li>
+                    <li>
+                        <a href="{{.Site.BaseURL}}tags">{{ i18n "tags" }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
