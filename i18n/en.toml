@@ -7,11 +7,11 @@ other = "Posts"
 [postslist]
 other = "Blog posts"
 
-[search]
-other = "Search"
-
 [categories]
 other = "Categories"
 
 [tags]
 other = "Tags"
+
+[backtohome]
+other = "Back to Home"

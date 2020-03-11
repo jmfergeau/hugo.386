@@ -6,6 +6,27 @@ theme = "hugo.386"
 preserveTaxonomyNames = true
 
 [params]
+    # The name to display as main title in the home page
     mainpagetitle = "HUGO.386"
-    mainpagesubtitle = "Welcome to the early 90s!"
-    mainpagedesc = "This theme is the Hugo port of the BOOTSTRA.386 theme for a cool retro look on your blog."
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "Welcome to the early 90s!" 
+
+    # The name to display as main title in the home page
+    mainpagedesc = "This theme is the Hugo port of the BOOTSTRA.386 theme for a cool retro look on your blog. Check the links below to access the posts."
+
+    # The name to display in the copyright section in the footer
+    copyrightname = "JM Fergeau"
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    copyrighturl = "http://jmf-portfolio.netlify.com"
+
+    # Show the "built on Hugo" disclaimer
+    showhugo = true
+
+    # Urls for social networks
+    facebook = "https://facebook.com"
+    twitter = "https://twitter.com"
+    linkedin = "https://linkedin.com"
+    github = "https://github.com"
+    gitlab = "https://gitlab.com"

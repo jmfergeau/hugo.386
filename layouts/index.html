@@ -1,10 +1,13 @@
 {{ define "main" }}
 
 <div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>{{ .Site.Params.mainpagetitle }}</h1>
+    </div>
+</div>
+
+<div class="row-fluid">
     <div class="span9 bs-docs-sidebar">
-        <div class="page-header">
-            <h1>{{ .Site.Params.mainpagetitle }}</h1>
-        </div>
         <p class="lead">{{ .Site.Params.mainpagesubtitle }}</p>
         <p></p>
         <p>{{ .Site.Params.mainpagedesc }}</p>
@@ -22,12 +25,12 @@
     </div>
 
     <div class="span3 bs-docs-sidebar">
-        <h1>Categories</h1>
+        <h1>{{ i18n "categories" }}</h1>
         <ul class="nav nav-list bs-docs-sidenav">
             {{ partial "categories.html" .}}
         </ul>
         <p></p>
-        <h1>Tags</h1>
+        <h1>{{ i18n "tags" }}</h1>
         <ul class="nav nav-list bs-docs-sidenav">
             {{ partial "tags.html" .}}
         </ul>

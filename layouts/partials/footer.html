@@ -1,3 +1,24 @@
+<footer class="container">
+    <hr class="soften">
+    <p>
+        &copy; 
+        {{ with .Site.Params.copyrighturl }}<a href="{{ . }}" target="_blank">{{ end }}
+            {{ .Site.Params.copyrightname }}
+        {{ with .Site.Params.copyrighturl }}</a>{{ end }}
+        <span id="thisyear">2020</span>
+        {{ if isset .Site.Params "showhugo" }}
+             | Built on <a href="//gohugo.io" target="_blank">Hugo</a>
+        {{ end }}
+    </p>
+    <p class="text-center">
+        {{ with .Site.Params.facebook }}<a href="{{ . }}">Facebook</a> {{ end }}
+        {{ with .Site.Params.twitter }}<a href="{{ . }}">Twitter</a> {{ end }}
+        {{ with .Site.Params.linkedin }}<a href="{{ . }}">Linkedin</a> {{ end }}
+        {{ with .Site.Params.github }}<a href="{{ . }}">GitHub</a> {{ end }}
+        {{ with .Site.Params.gitlab }}<a href="{{ . }}">GitLab</a>{{ end }}
+    </p>
+</footer>
+
 
 <script src="{{ "/js/bootstrap.min.js" | relURL }}"></script>
 <script src="{{ "/js/bootstrap-386.js" | relURL }}"></script>
@@ -18,4 +39,9 @@
 <script src="{{ "/js/bootstrap-affix.js" | relURL }}"></script>
 <script>
     _386 = { onePass: true, speedFactor: 1.0 };
+
+    // Free updated script to get the actual year !! no more document.write or stuff!!
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
 </script>

@@ -1,0 +1,17 @@
+[home]
+other = "Accueil"
+
+[posts]
+other = "Articles"
+
+[postslist]
+other = "Articles de blog"
+
+[categories]
+other = "Catégories"
+
+[tags]
+other = "Tags"
+
+[backtohome]
+other = "Retour à l'accueil"

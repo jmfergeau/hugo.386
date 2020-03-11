@@ -1,10 +1,5 @@
-{{ $taxonomy := "categories" }}
-{{ with .Param $taxonomy }}
-{{ range $index, $tag := . }}
-{{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+{{range first 10 ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
 <li>
-    <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+    <a href="{{ .Permalink }}">{{.Title}}</a>
 </li>
-{{- end -}}
-{{- end -}}
 {{ end }}
