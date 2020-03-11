@@ -1,7 +1,7 @@
 # HUGO.386
-This is a port of the BOOTSTRA.386 theme for Hugo, for a cool retro look on your blog. [Test it on live here!](//maxlefou.gitlab.io/hugo.386-test/)
+This is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386) theme for Hugo, for a cool retro look on your blog. [Test it on live here!](//maxlefou.gitlab.io/hugo.386-test/)
 
-![Example of Hugo blog with the theme](screenshot.jpg)
+![Example of Hugo blog with the theme](static/images/screenshot.png)
 
 ## Installation
 Inside the folder of your Hugo site run:

@@ -17,7 +17,7 @@
         <h1>{{ i18n "postslist" }}</h1>
         <ul>
             {{ range first 10 .Site.RegularPages }}
-            {{ if eq .Type "posts" }}
+            {{ if eq .Type "post" }}
             <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
             {{ end }}
             {{ end }}

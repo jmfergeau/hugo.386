@@ -1,6 +1,6 @@
-baseURL = "/"
-languageCode = "en-us"
+baseURL = "https://example.com"
 title = "HUGO.386"
+languageCode = "en"
 DefaultContentLanguage = "en"
 theme = "hugo.386"
 preserveTaxonomyNames = true
@@ -30,3 +30,41 @@ preserveTaxonomyNames = true
     linkedin = "https://linkedin.com"
     github = "https://github.com"
     gitlab = "https://gitlab.com"
+    
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "All posts"
+    url = "/post/"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
