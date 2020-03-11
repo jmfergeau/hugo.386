@@ -30,7 +30,7 @@ preserveTaxonomyNames = true
     linkedin = "https://linkedin.com"
     github = "https://github.com"
     gitlab = "https://gitlab.com"
-    
+
 [menu]
 
   [[menu.main]]
@@ -68,3 +68,11 @@ tag = "tags"
   [privacy.youtube]
     disabled = false
     privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
