@@ -1,5 +1,5 @@
 # HUGO.386
-This is a port of the BOOTSTRA.386 theme for Hugo, for a cool retro look on your blog.
+This is a port of the BOOTSTRA.386 theme for Hugo, for a cool retro look on your blog. [Test it on live here!](//maxlefou.gitlab.io/hugo.386-test/)
 
 ![Example of Hugo blog with the theme](screenshot.jpg)
 

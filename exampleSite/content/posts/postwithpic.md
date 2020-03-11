@@ -8,8 +8,8 @@ categories: ["blog","photos"]
 
 Here goes some pictures.
 
-![A random image from picsum](/pic1.jpg)
+![A random image from picsum](/yoursite/pic1.jpg)
 
-![Another random image from picsum](/pic2.jpg)
+![Another random image from picsum](/yoursite/pic2.jpg)
 
-![A last random image from picsum](/pic3.jpg)
+![A last random image from picsum](/yoursite/pic3.jpg)
