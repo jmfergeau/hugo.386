@@ -3,7 +3,7 @@ HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386)
 
 ## [Test it on live here!](//maxlefou.gitlab.io/hugo.386-test/)
 
-![Example of Hugo blog with the theme](static/images/screenshot.png)
+![Example of Hugo blog with the theme](images/screenshot.png)
 
 ## Installation
 Inside the folder of your Hugo site run:
