@@ -35,7 +35,11 @@
 <script src="{{ "/js/bootstrap-typeahead.js" | relURL }}"></script>
 <script src="{{ "/js/bootstrap-affix.js" | relURL }}"></script>
 <script>
-    _386 = { onePass: true, speedFactor: 1.0 };
+    _386 = { 
+        fastLoad:{{ .Site.Params.loadfastload }},
+        onePass:{{ .Site.Params.loadonepass }}, 
+        speedFactor:{{ .Site.Params.loadspeedfactor }}
+    };
 
     // Free updated script to get the actual year !! no more document.write or stuff!!
     function ThisYear() {
