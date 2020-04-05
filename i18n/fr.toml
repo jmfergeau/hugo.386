@@ -11,7 +11,10 @@ other = "Articles de blog"
 other = "Catégories"
 
 [tags]
-other = "Tags"
+other = "Etiquettes"
 
 [backtohome]
 other = "Retour à l'accueil"
+
+[builton]
+other = "Propulsé par"

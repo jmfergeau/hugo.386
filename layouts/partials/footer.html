@@ -7,7 +7,7 @@
         {{ with .Site.Params.copyrighturl }}</a>{{ end }}
         <span id="thisyear">2020</span>
         {{ if isset .Site.Params "showhugo" }}
-             | Built on <a href="//gohugo.io" target="_blank">Hugo</a>
+             | {{ i18n "builton" }} <a href="//gohugo.io" target="_blank">Hugo</a>
         {{ end }}
     </p>
     <p class="text-center">
