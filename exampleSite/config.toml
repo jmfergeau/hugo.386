@@ -12,7 +12,7 @@ preserveTaxonomyNames = true
     # The subtitle to display under the title in the home page
     mainpagesubtitle = "Welcome to the early 90s!" 
 
-    # The name to display as main title in the home page
+    # The description of your website. It will be displayed in the home page
     mainpagedesc = "This theme is the Hugo port of the BOOTSTRA.386 theme for a cool retro look on your blog. Check the links below to access the posts."
 
     # The name to display in the copyright section in the footer
