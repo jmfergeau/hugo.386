@@ -1,14 +1,7 @@
 <footer class="container">
     <hr class="soften">
     <p>
-        &copy; 
-        {{ with .Site.Params.copyrighturl }}<a href="{{ . }}" target="_blank">{{ end }}
-            {{ .Site.Params.copyrightname }}
-        {{ with .Site.Params.copyrighturl }}</a>{{ end }}
-        <span id="thisyear">2020</span>
-        {{ if isset .Site.Params "showhugo" }}
-             | {{ i18n "builton" }} <a href="//gohugo.io" target="_blank">Hugo</a>
-        {{ end }}
+        {{- partial "copyright.html" . -}}
     </p>
     <p class="text-center">
         {{ with .Site.Params.facebook }}<a href="{{ . }}">Facebook</a> {{ end }}
@@ -19,30 +12,3 @@
     </p>
 </footer>
 
-<script src="{{ "/js/jquery.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-386.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-transition.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-alert.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-modal.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-dropdown.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-scrollspy.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-tab.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-tooltip.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-popover.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-button.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-collapse.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-carousel.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-typeahead.js" | relURL }}"></script>
-<script src="{{ "/js/bootstrap-affix.js" | relURL }}"></script>
-<script>
-    _386 = { 
-        fastLoad:{{ .Site.Params.loadfastload }},
-        onePass:{{ .Site.Params.loadonepass }}, 
-        speedFactor:{{ .Site.Params.loadspeedfactor }}
-    };
-
-    // Free updated script to get the actual year !! no more document.write or stuff!!
-    function ThisYear() {
-        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
-    };
-</script>

@@ -40,6 +40,18 @@ preserveTaxonomyNames = true
     # Enables or disables the second flyby cursor. Default is false.
     loadonepass = false
 
+[params.copyright]
+    name = "JM Fergeau"
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    url = "http://jmf-portfolio.netlify.com"
+
+    # Text to go before copyright information
+    prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
+
+    # Text to go between copyright and hugo disclaimer (if enabled)
+    suffix = "Example site"
+
 [menu]
   # This displays buttons in the navbar to access your contents
   [[menu.main]]
