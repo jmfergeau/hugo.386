@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="{{ "/css/bootstrap.css" | relURL }}">
 <link rel="stylesheet" href="{{ "/css/bootstrap-responsive.css" | relURL }}">
 <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+{{ range .Site.Params.customCSS -}}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{- end }}
 <script src="{{ "/js/jquery.js" | relURL }}"></script>
 <script src="{{ "/js/bootstrap-386.js" | relURL }}"></script>
 <script src="{{ "/js/bootstrap-transition.js" | relURL }}"></script>
@@ -28,3 +31,6 @@
         document.getElementById('thisyear').innerHTML = new Date().getFullYear();
     };
 </script>
+{{- range .Site.Params.customJS }}
+<script src="{{ . | relURL }}"></script>
+{{- end }}
