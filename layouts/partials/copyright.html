@@ -1,4 +1,3 @@
-
 {{ with .Site.Params.Copyright.Prefix }}
     {{ . | markdownify }} | 
 {{end}}
@@ -6,7 +5,7 @@
 {{ with .Site.Params.copyright.url }}<a href="{{ . }}" target="_blank">{{ end }}
     {{ .Site.Params.copyright.name }}
 {{ with .Site.Params.copyright.url }}</a>{{ end }}
-<span id="thisyear">2020</span>
+<span id="thisyear">{{ now.Year }}</span>
 {{ with .Site.Params.Copyright.Suffix }}
     | {{ . | markdownify }}
 {{end}}
