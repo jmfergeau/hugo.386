@@ -1,12 +1,19 @@
 {{ define "main" }}
 
-<div class="row-fluid navmargin">
-    <div class="page-header">
-        <h1>{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}</h1>
+<div class="row">
+    <div class="col">
+
+        <h1 class="mb-3">{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}</h1>
+
+        <p class="lead">{{ .Params.description }}</p>
+        {{ .Content }}
+
     </div>
-    <p class="lead">{{ .Params.description }}</p>
-    {{ .Content }}
-    <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
+</div>
+<div class="row align-center">
+    <div class="col">
+        <a href="{{ .Site.BaseURL }}" class="btn btn-primary btn-lg">{{ i18n "backtohome" }}</a>
+    </div>
 </div>
 
 {{ end }}

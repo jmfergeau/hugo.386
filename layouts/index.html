@@ -1,40 +1,45 @@
 {{ define "main" }}
 
-<div class="row-fluid navmargin">
-    <div class="page-header">
-        <h1>{{ .Site.Params.mainpagetitle }}</h1>
+<div class="row mt-3">
+    <div class="col-lg-9">
+        <div class="bs-component">
+            <div class="jumbotron">
+                <h1 class="display-3">{{ .Site.Params.mainpagetitle }}</h1>
+
+                <p class="lead mt-3">{{ .Site.Params.mainpagesubtitle }}</p>
+                <p class="lead">{{ .Site.Params.mainpagedesc }}</p>
+            </div>
+        </div>
+        <div class="bs-component">
+            <h1>{{ i18n "postslist" }}</h1>
+            <ul class="list-group">
+                {{ range first 10 .Site.RegularPages }} {{ if eq .Type "post" }}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    <span class="badge badge-primary badge-pill">{{ .Date.Format "2006-01-02" }}</span>
+                </li>
+                {{ end }} {{ end }}
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-lg-3">
+        <div class="bs-component">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">{{ i18n "categories" }}</div>
+                <div class="card-body">
+                    {{ partial "categories.html" .}}
+                </div>
+            </div>
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">{{ i18n "tags" }}</div>
+                <div class="card-body">
+                    {{ partial "tags.html" .}}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="row-fluid">
-    <div class="span9 bs-docs-sidebar">
-        <p class="lead">{{ .Site.Params.mainpagesubtitle }}</p>
-        <p></p>
-        <p>{{ .Site.Params.mainpagedesc }}</p>
-        <p></p>
-        <hr class="soften">
-        <p></p>
-        <h1>{{ i18n "postslist" }}</h1>
-        <ul>
-            {{ range first 10 .Site.RegularPages }}
-            {{ if eq .Type "post" }}
-            <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
-            {{ end }}
-            {{ end }}
-        </ul>
-    </div>
-
-    <div class="span3 bs-docs-sidebar">
-        <h1>{{ i18n "categories" }}</h1>
-        <ul class="nav nav-list bs-docs-sidenav">
-            {{ partial "categories.html" .}}
-        </ul>
-        <p></p>
-        <h1>{{ i18n "tags" }}</h1>
-        <ul class="nav nav-list bs-docs-sidenav">
-            {{ partial "tags.html" .}}
-        </ul>
-    </div>
-</div>
 
 {{ end }}

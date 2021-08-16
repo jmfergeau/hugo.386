@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content" class="container">
+{{- partial "head.html" . -}}
+
+<body class="bootstra-enable-cursor">
+    {{- partial "header.html" . -}}
+    <div id="content" class="container">
         {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
-    {{- partial "scripts.html" . -}}
+    </div>
+    {{- partial "footer.html" . -}}
+</body>
+{{- partial "scripts.html" . -}}
+
 </html>

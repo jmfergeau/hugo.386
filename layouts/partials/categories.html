@@ -1,5 +1,2 @@
 {{range first 10 ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-<li>
-    <a href="{{ .Permalink }}">{{.Title}}</a>
-</li>
-{{ end }}
+<a class="btn btn-primary" href="{{ .Permalink }}">{{.Title}}</a><br> {{ end }}
