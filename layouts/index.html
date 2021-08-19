@@ -6,11 +6,11 @@
             <div class="jumbotron">
                 <h1 class="display-3">{{ .Site.Params.mainpagetitle }}</h1>
 
-                <p class="lead mt-3">{{ .Site.Params.mainpagesubtitle }}</p>
+                <p class="lead">{{ .Site.Params.mainpagesubtitle }}</p>
                 <p class="lead">{{ .Site.Params.mainpagedesc }}</p>
             </div>
         </div>
-        <div class="bs-component">
+        <div class="bs-component mb-3">
             <h1>{{ i18n "postslist" }}</h1>
             <ul class="list-group">
                 {{ range first 10 .Site.RegularPages }} {{ if eq .Type "post" }}
@@ -25,13 +25,13 @@
 
     <div class="col-lg-3">
         <div class="bs-component">
-            <div class="card text-white bg-primary mb-3">
+            <div class="card text-white bg-primary mb-3 sideblock">
                 <div class="card-header">{{ i18n "categories" }}</div>
                 <div class="card-body">
                     {{ partial "categories.html" .}}
                 </div>
             </div>
-            <div class="card text-white bg-primary mb-3">
+            <div class="card text-white bg-primary mb-3 sideblock">
                 <div class="card-header">{{ i18n "tags" }}</div>
                 <div class="card-body">
                     {{ partial "tags.html" .}}

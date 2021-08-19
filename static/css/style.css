@@ -1,11 +1,21 @@
-body { 
-	visibility: hidden 
+body {
+    visibility: hidden
 }
 
-.navmargin {
-	margin-top: 2em;
+.sideblock {
+    filter: drop-shadow(7px 8px 0 black);
 }
 
-h2 {
-    white-space: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.4em;
+}
+
+ol,
+ul {
+    padding-left: 1em;
 }
