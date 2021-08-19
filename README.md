@@ -1,7 +1,9 @@
 # HUGO.386
 HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386) theme. It has a cool MS-DOS feeling and is ready to be used for blogs. Despite its antique look, the theme is responsive and can be viewed on mobile devices.
 
-## [Test it on live here!](//maxlefou.gitlab.io/hugo.386-test/)
+## [Test it on live here! (v1)](//maxlefou.gitlab.io/hugo.386-test/)
+
+**Note:** A new version based on Bootstrap 4 is in the making with a slightly different design. It's still in beta but you can test it by fetching [the v3 branch](https://gitlab.com/maxlefou/hugo.386/-/tree/v3) instead of the master. Don't use it in production yet, though.
 
 ![Example of Hugo blog with the theme](images/screenshot.png)
 
@@ -47,4 +49,4 @@ This theme is released under the Apache License 2.0 For more information read th
 
 ## Annotations
 
-Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project. Many thanks to [Kristopolous](//github.com/kristopolous) as well for the BOOTSRTA.386 theme, even if it's a bit outdated today. (and i'm not speaking of the retro look)
+Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project. Many thanks to [Kristopolous](//github.com/kristopolous) as well for the BOOTSRTA.386 theme.
