@@ -2,7 +2,7 @@
 <html lang="{{ .Site.Language.Lang }}">
 {{- partial "head.html" . -}}
 
-<body class="bootstra-enable-cursor">
+<body class="bootstra-enable-cursor {{ with .Site.Params.showcrt }}crt{{ end }}">
     {{- partial "header.html" . -}}
     <div id="content" class="container">
         {{- block "main" . }}{{- end }}
