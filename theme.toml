@@ -6,7 +6,7 @@ license = "Apache 2"
 licenselink = "//gitlab.com/maxlefou/hugo.386/blob/master/LICENSE"
 description = "Hugo port of the BOOTSTRA.386 theme"
 homepage = "//gitlab.com/maxlefou/hugo.386/"
-tags = ["blog","retro","geek","bootstra.386","hugo.386"]
+tags = ["blog","retro","geek","bootstra.386","hugo.386","bootstrap","dos","oldies","computer"]
 features = ["responsive"]
 min_version = "0.41"
 
