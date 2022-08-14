@@ -39,7 +39,7 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 ## Contributing
 
-Did you found a bug or got an idea for a new feature? There's surely at least some subsisting glitches as this theme is brand new. So feel free to use the [issue tracker](//gitlab.com/maxlefou/hugo.386/issues) to let me know. Or make directly a [merge request](//gitlab.com/maxlefou/hugo.386/pulls).
+Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//gitlab.com/maxlefou/hugo.386/issues) to let me know. Or make directly a [merge request](//gitlab.com/maxlefou/hugo.386/pulls).
 
 
 ## License
@@ -49,4 +49,4 @@ This theme is released under the Apache License 2.0 For more information read th
 
 ## Annotations
 
-Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project. Many thanks to [Kristopolous](//github.com/kristopolous) as well for the BOOTSRTA.386 theme.
+Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project. Many thanks to [Kristopolous](//github.com/kristopolous) as well for the BOOTSRTA.386 theme. And finally huge thanks for all the contributors for helping this theme to stay updated and glitch-free!
