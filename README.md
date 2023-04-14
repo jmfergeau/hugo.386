@@ -3,7 +3,7 @@ HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386)
 
 ## [Test it on live here! (v1)](//hugo386.netlify.app/)
 
-**Note:** A new version based on Bootstrap 4 is in the making with a slightly different design. It's still in beta but you can test it by fetching [the v3 branch](https://gitlab.com/jmfergeau/hugo.386/-/tree/v3) instead of the master. Don't use it in production yet, though.
+**Note:** A new version based on Bootstrap 4 is in the making with a slightly different design. It's still in beta but you can test it by fetching [the v3 branch](https://gitlab.com/jmfergeau/hugo.386/-/tree/v3) instead of the master. Don't use it in production yet, though. [You can test it here!](//hugo386v3.netlify.app/)
 
 ![Example of Hugo blog with the theme](images/screenshot.png)
 
