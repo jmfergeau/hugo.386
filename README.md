@@ -1,7 +1,7 @@
 # HUGO.386
 HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386) theme. It has a cool MS-DOS feeling and is ready to be used for blogs. Despite its antique look, the theme is responsive and can be viewed on mobile devices.
 
-## [Test it on live here!](//maxlefou.gitlab.io/hugo.386-test/)
+## [Test it on live here!](//hugo386v3.netlify.app/)
 
 ![Example of Hugo blog with the theme](images/screenshot.png)
 
