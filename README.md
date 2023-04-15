@@ -6,6 +6,10 @@ HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386)
 ![Example of Hugo blog with the theme](images/screenshot.png)
 
 ## Installation
+### As a hugo module
+Due to the fact that hugo modules doesn't seem to support git branches, (?!) It's not possible for now to get the v3 theme as a hugo module. Please use the git submodule method or wait for the v3 to become the main version.
+
+### As a git submodule
 Inside the folder of your Hugo site run:
 
     $ git submodule add https://gitlab.com/jmfergeau/hugo.386 themes/hugo.386
