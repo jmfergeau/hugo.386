@@ -8,6 +8,29 @@ HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386)
 ![Example of Hugo blog with the theme](images/screenshot.png)
 
 ## Installation
+
+### As a Hugo module
+Remove your previously used theme variable from your site config and remove the themes directory, or move it out of your Hugo site repo.
+
+In your siteconfig add the following:
+
+```
+[module]
+  [[module.imports]]
+    path = "gitlab.com/jmfergeau/hugo.386"
+
+```
+
+Inside the folder of your Hugo site run:
+
+    $ hugo mod init hugo386
+
+Finally to clean up the go.mod and update/generate the go.sum file which track the module dependencies for your site, run: 
+
+    $ hugo mod tidy
+
+### With git submodules
+
 Inside the folder of your Hugo site run:
 
     $ git submodule add https://gitlab.com/jmfergeau/hugo.386 themes/hugo.386
