@@ -31,7 +31,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## Twitter Simple Shortcode
 
-{{< x 1085870671291310081 >}}
+{{< x user="GoHugoIO" id="1688548872690212864" >}}
 
 <br>
 
