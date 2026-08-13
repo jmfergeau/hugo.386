@@ -3,9 +3,9 @@ HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386)
 
 ## [Test it on live here! (v1)](//hugo386.netlify.app/)
 
-**Note:** A new version based on Bootstrap 4 is in the making with a slightly different design. It's still in beta but you can test it by fetching [the v3 branch](https://gitlab.com/jmfergeau/hugo.386/-/tree/v3) instead of the master. Don't use it in production yet, though. [You can test it here!](//hugo386v3.netlify.app/)
+**Note:** A new version based on Bootstrap 4 is in the making with a slightly different design. It's still in beta but you can test it by fetching [the v3 branch](https://github.com/jmfergeau/hugo.386/-/tree/v3) instead of the master. Don't use it in production yet, though. [You can test it here!](//hugo386v3.netlify.app/)
 
-![Example of Hugo blog with the theme](images/screenshot.png)
+![Example of Hugo blog with the theme](https://raw.githubusercontent.com/jmfergeau/hugo.386/master/images/screenshot.png)
 
 ## Installation
 
@@ -45,10 +45,10 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### The config file
 
-Take a look inside the [`exampleSite`](//gitlab.com/jmfergeau/hugo.386/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//gitlab.com/jmfergeau/hugo.386/blob/master/exampleSite/config.toml).
+Take a look inside the [`exampleSite`](//github.com/jmfergeau/hugo.386/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//github.com/jmfergeau/hugo.386/blob/master/exampleSite/config.toml).
 It contains detailed information about the customization of all strings in this theme. 
 
-To use it, copy the [`config.toml`](//gitlab.com/jmfergeau/hugo.386/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change strings as you like.
+To use it, copy the [`config.toml`](//github.com/jmfergeau/hugo.386/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change strings as you like.
 
 
 ### Nearly finished
@@ -62,7 +62,7 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 ## Contributing
 
-Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//gitlab.com/jmfergeau/hugo.386/issues) to let me know. Or make directly a [merge request](//gitlab.com/jmfergeau/hugo.386/pulls).
+Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/jmfergeau/hugo.386/issues) to let me know. Or make directly a [merge request](//github.com/jmfergeau/hugo.386/pulls).
 
 
 ## License
