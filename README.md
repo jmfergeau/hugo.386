@@ -33,7 +33,7 @@ Finally to clean up the go.mod and update/generate the go.sum file which track t
 
 Inside the folder of your Hugo site run:
 
-    $ git submodule add https://gitlab.com/jmfergeau/hugo.386 themes/hugo.386
+    $ git submodule add https://github.com/jmfergeau/hugo.386 themes/hugo.386
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
