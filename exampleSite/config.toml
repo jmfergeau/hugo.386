@@ -69,34 +69,10 @@ preserveTaxonomyNames = true
     url = "/post/"       # The path can lead to a content folder too.
     weight = 20
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
 [services]
 
   [services.instagram]
     disableInlineCSS = true
 
-  [services.twitter]
+  [services.x]
     disableInlineCSS = true
