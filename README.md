@@ -17,7 +17,7 @@ In your siteconfig add the following:
 ```
 [module]
   [[module.imports]]
-    path = "gitlab.com/jmfergeau/hugo.386"
+    path = "github.com/jmfergeau/hugo.386"
 
 ```
 
